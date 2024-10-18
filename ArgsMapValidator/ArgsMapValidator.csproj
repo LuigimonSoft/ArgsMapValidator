@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>ArgsMapValidator</AssemblyName>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <Version>1.0.0</Version>
+    <Authors>Luis Carlos Carrillo</Authors>
+    <Description>A .Net 8 library designed to simplify the process of mapping console application arguments to a data model and those arguments against custom rules. This library helps developers efficiently handle command-line inputs, ensuring that the data provided is correctly structured and validated before being processed.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/LuigimonSoft/ArgsMapValidator</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/LuigimonSoft/ArgsMapValidator</PackageProjectUrl>
+    <Title>Arguments mapper and validator</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
