@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Reflection;
-using ConsoleBase.Common.Attributes;
+using ArgsMapValidator.Attributes;
 
 namespace ArgsMapValidator.Mapping
 {
@@ -13,10 +13,10 @@ namespace ArgsMapValidator.Mapping
 
             foreach (var prop in properties)
             {
-                var columnAttr = prop.GetCustomAttribute<ColumnAttribute>();
-                if (columnAttr != null)
+                var parameterAttr = prop.GetCustomAttribute<ParameterAttribute>();
+                if (parameterAttr != null)
                 {
-                    var index = columnAttr.Index;
+                    var index = parameterAttr.Index;
 
                     if (index < parameters.Length)
                     {
