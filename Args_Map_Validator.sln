@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgsMapValidator", "ArgsMapValidator\ArgsMapValidator.csproj", "{50518A0D-A7BA-4472-A6DD-8D71526935BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50518A0D-A7BA-4472-A6DD-8D71526935BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50518A0D-A7BA-4472-A6DD-8D71526935BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50518A0D-A7BA-4472-A6DD-8D71526935BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50518A0D-A7BA-4472-A6DD-8D71526935BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD612825-02FF-3E34-89BB-650A6FCED28F}
+	EndGlobalSection
+EndGlobal
