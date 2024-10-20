@@ -4,6 +4,8 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{5A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgsMapValidator", "ArgsMapValidator\ArgsMapValidator.csproj", "{50518A0D-A7BA-4472-A6DD-8D71526935BE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgsMapValidator.Tests", "ArgsMapValidator.Tests\ArgsMapValidator.Tests.csproj", "{F9BA2CF3-02C8-4E86-856E-5DACB2A3F263}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,10 @@ Global
 		{50518A0D-A7BA-4472-A6DD-8D71526935BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50518A0D-A7BA-4472-A6DD-8D71526935BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50518A0D-A7BA-4472-A6DD-8D71526935BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BA2CF3-02C8-4E86-856E-5DACB2A3F263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BA2CF3-02C8-4E86-856E-5DACB2A3F263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BA2CF3-02C8-4E86-856E-5DACB2A3F263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BA2CF3-02C8-4E86-856E-5DACB2A3F263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
